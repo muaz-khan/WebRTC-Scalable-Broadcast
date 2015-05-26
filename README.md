@@ -10,6 +10,8 @@ This module simply initializes socket.io and configures it in a way that single 
 npm install webrtc-scalable-broadcast
 
 node .\node_modules\webrtc-scalable-broadcast\server.js
+# or on Linux:
+node ./node_modules/webrtc-scalable-broadcast/server.js
 ```
 
 And now open: `http://localhost:8888`.
