@@ -11,10 +11,11 @@ npm install webrtc-scalable-broadcast
 
 node .\node_modules\webrtc-scalable-broadcast\server.js
 # or on Linux:
-node ./node_modules/webrtc-scalable-broadcast/server.js
+cd ./node_modules/webrtc-scalable-broadcast/
+node ./server.js
 ```
 
-And now open: `http://localhost:8888`.
+And now open: `http://localhost:8888`
 
 ## How it works?
 
