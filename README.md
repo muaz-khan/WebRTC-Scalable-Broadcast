@@ -6,6 +6,11 @@ Scalable WebRTC peer-to-peer broadcasting demo.
 
 This module simply initializes socket.io and configures it in a way that single broadcast can be relayed over unlimited users without any bandwidth/CPU usage issues. Everything happens peer-to-peer!
 
+## Demos
+
+1. [`index.html`](https://github.com/muaz-khan/WebRTC-Scalable-Broadcast/blob/master/index.html) - share video or screen or audio over unlimited users using p2p methods.
+2. [`share-files.html`](https://github.com/muaz-khan/WebRTC-Scalable-Broadcast/blob/master/share-files.html) - share files with unlimited users using p2p methods!
+
 ## Browsers Support:
 
 | Browser        | Support           |
@@ -38,7 +43,7 @@ Chrome-to-Firefox interoperability also works!
 
 > Android devices are NOT tested yet. Opera is also NOT tested yet (though Opera uses same chromium code-base).
 
-Currently you can't share audio in Chrome of of [this big](https://www.webrtc-experiment.com/demos/remote-stream-recording.html). In case of audio+video stream, chrome will skip remote-audio tracks forwarding. However chrome will keep receiving remote-audio from Firefox!
+Currently you can't share audio in Chrome out of [this big](https://www.webrtc-experiment.com/demos/remote-stream-recording.html). In case of audio+video stream, chrome will skip remote-audio tracks forwarding. However chrome will keep receiving remote-audio from Firefox!
 
 ## Firefox
 
@@ -83,7 +88,7 @@ Or directly download the TAR/archive on windows:
 
 * http://dl.webrtc-experiment.com/webrtc-scalable-broadcast.tar.gz
 
-And now open: `http://localhost:8888` or '127.0.0.1:8888'.
+And now open: `http://localhost:8888` or `127.0.0.1:8888`.
 
 If `server.js` fails to run:
 
